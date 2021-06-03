@@ -1,3 +1,12 @@
+# Building google demo using next.js
+## Next.js
+- Next. js is a JavaScript framework created by Zeit.
+- It lets you build server-side rendering and static web applications using React.
+- referring (https://www.freecodecamp.org/news/the-next-js-handbook/)
+
+- create next app using command ```npx create-next-app project-name```
+- main route define in ```pages- index.js``` 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
