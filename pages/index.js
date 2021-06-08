@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Avatar from './../components/Avatar.js';
 
 export default function Home() {
   return (
@@ -9,20 +10,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* Header */}
-      <header  className="flex w-full p-5 justify-between">
+      <header  className="flex w-full p-5 justify-between text-sm text-gray-700">
         {/* left */}
         <div className="flex space-x-4 items-center">
-          <p>About</p>
-          <p>Store</p>
+          <p className="link">About</p>
+          <p className="link">Store</p>
         </div>
 
         {/* right */}
         <div className="flex space-x-4 items-center">
-          <p>Gmail</p>
-          <p>Images</p>
-
+          <p className="link">Gmail</p>
+          <p className="link">Images</p>
+          
           {/* Icon */}
-
+          <Avatar url = "https://www.publicdomainpictures.net/pictures/290000/nahled/red-gerbera-daisy-close-up.jpg" />
         </div>
       </header>
       
