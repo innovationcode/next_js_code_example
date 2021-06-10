@@ -1,5 +1,9 @@
 import Head from 'next/head';
 import Avatar from './../components/Avatar.js';
+import { ViewGridIcon, MicrophoneIcon } from '@heroicons/react/solid'
+import Image from 'next/image';
+import { SearchIcon } from '@heroicons/react/outline'
+
 
 export default function Home() {
   return (
@@ -23,11 +27,29 @@ export default function Home() {
           <p className="link">Images</p>
           
           {/* Icon */}
+          <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor:pointer"/>
           <Avatar url = "https://www.publicdomainpictures.net/pictures/290000/nahled/red-gerbera-daisy-close-up.jpg" />
         </div>
       </header>
       
       {/* Body */}
+      <form>
+        <Image
+          src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          height = {100}
+          width = {300}
+
+        />
+
+        <div className="flex w-full">
+          <SearchIcon className="h-10 mr-3 text-gray-500"/>
+          <input 
+            type="text"
+            className="bg-red-300 focus:outline-none"
+          />
+          <MicrophoneIcon className="h-10"/>
+        </div>
+      </form>
 
       {/* Footer */}
     </div>

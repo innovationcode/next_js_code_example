@@ -7,6 +7,10 @@
 - create next app using command ```npx create-next-app project-name```
 - main route define in ```pages- index.js``` 
 
+- for tailwind-css refer ```https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss```
+
+- For icons refering ```https://github.com/tailwindlabs/heroicons```
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
